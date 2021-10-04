@@ -28,5 +28,13 @@
   - Load balancing orchestrates the use of multiple parallel resources to direct user requests to the server resource that’s best able to provide a successful experience. A common use case for load balancing is to coordinate the use of primary and (remote) backup resources to cover for a failure
 
 ## Edge Locations
-- An edge location is a site where AWS deploys physical server infrastructure to provide lowlatency user access to Amazon-based data.
+- An edge location is a site where AWS deploys physical server infrastructure to provide lowlatency user access to Amazon-based data.
 - The important difference is that your garden-variety data centers are designed to offer the full range of AWS services, including the complete set of EC2 instance types and the networking infrastructure customers would need to shape their compute environments. Edge locations, on the other hand, are much more focused on a smaller set of roles and will therefore stock a much narrower set of hardware.
+- Perhaps the best-known tenant of edge locations is CloudFront, Amazon’s CDN service. How does that work? Let’s say you’re hosting large media fi les in S3 buckets. If users would have to retrieve their files directly from the bucket each time they were requested, delivery—especially to end users living continents away from the bucket location—would be relatively slow. But if you could store cached copies of the most popular fi les on servers located geographically close to your users, then they wouldn’t have to wait for the original file to be retrieved but could be enjoying the cached copy in a fraction of the time.
+
+## Shared Responsibility Model
+- The cloud itself consists of the physical buildings, servers, and networking hardware used by AWS data centers. 
+- AWS is responsible for making sure that its locations are secure, reliably powered, and properly maintained. 
+- AWS is also on the hook for patching, encrypting (where relevant), and maintaining the operating systems and virtualization software running its physical servers and for the software running its managed services
+- What exactly is “managed” and what’s “unmanaged”:
+- ![image](https://user-images.githubusercontent.com/57194114/135784548-e844401e-59ce-4d18-b483-fbd8de586567.png)
