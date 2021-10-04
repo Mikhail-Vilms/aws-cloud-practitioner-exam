@@ -37,4 +37,5 @@
 - AWS is responsible for making sure that its locations are secure, reliably powered, and properly maintained. 
 - AWS is also on the hook for patching, encrypting (where relevant), and maintaining the operating systems and virtualization software running its physical servers and for the software running its managed services
 - What exactly is “managed” and what’s “unmanaged”:
-- ![image](https://user-images.githubusercontent.com/57194114/135784548-e844401e-59ce-4d18-b483-fbd8de586567.png)
+- ![image](https://user-images.githubusercontent.com/57194114/135784608-fa74bce0-2a52-4ae3-b6ae-83265c9677bb.png)
+
