@@ -38,4 +38,5 @@
 - AWS is also on the hook for patching, encrypting (where relevant), and maintaining the operating systems and virtualization software running its physical servers and for the software running its managed services
 - What exactly is “managed” and what’s “unmanaged”:
 - ![image](https://user-images.githubusercontent.com/57194114/135784608-fa74bce0-2a52-4ae3-b6ae-83265c9677bb.png)
+- ![image](https://user-images.githubusercontent.com/57194114/135784657-0ec3c9a9-4bd6-4147-afda-56dbb5b1f3f2.png)
 
