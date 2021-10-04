@@ -31,6 +31,7 @@
 - An edge location is a site where AWS deploys physical server infrastructure to provide lowlatency user access to Amazon-based data.
 - The important difference is that your garden-variety data centers are designed to offer the full range of AWS services, including the complete set of EC2 instance types and the networking infrastructure customers would need to shape their compute environments. Edge locations, on the other hand, are much more focused on a smaller set of roles and will therefore stock a much narrower set of hardware.
 - Perhaps the best-known tenant of edge locations is CloudFront, Amazon’s CDN service. How does that work? Let’s say you’re hosting large media fi les in S3 buckets. If users would have to retrieve their files directly from the bucket each time they were requested, delivery—especially to end users living continents away from the bucket location—would be relatively slow. But if you could store cached copies of the most popular fi les on servers located geographically close to your users, then they wouldn’t have to wait for the original file to be retrieved but could be enjoying the cached copy in a fraction of the time.
+- **AWS edge locations are globally distributed data servers that can store cached copies of AWS-based data from which — on behalf of the CloudFront service — they can be efficiently served to end users**
 
 ## Shared Responsibility Model
 - The cloud itself consists of the physical buildings, servers, and networking hardware used by AWS data centers. 
