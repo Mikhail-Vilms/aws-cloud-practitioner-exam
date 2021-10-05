@@ -29,4 +29,12 @@
 - Reports contain important information about the state of your account security, listing all current IAM users and giving you key intelligence, such as when each of them last logged in, whether they have MFA enabled, whether they have active access keys, and when those keys were last rotated.
 
 ## Encryption
+- Whether or not your particular use cases and privacy needs justify the effort, AWS provides a number of enterprise-strength encryption tools that are conveniently and effectively integrated into relevant services.
+- Encryption keys—the data files used to control an object’s cryptographic transformation—are mostly managed on AWS by the **AWS Key Management Service (KMS)**.
+- You can manage your keys — including creating new keys or scheduling the deletion of old ones — through either the KMS Dashboard or the Encryption Keys page within IAM
+- But besides ensuring that the wrong people won’t be able to read the objects living in your S3 buckets (server-side encryption), you also have to worry about the bad guys intercepting those objects while in transit from your local infrastructure (client-side encryption)
+  - Client-side encryption is a bit more complicated. You’ll need to encrypt your data before uploading it to S3 using either a KMS-managed customer master key or a client side master key. That key will then be used to manage the encryption and decryption throughout the data’s life cycle on the S3 platform.
+
 ## Regulatory Compliance (AWS Artifact)
+- Will the application you plan to run on AWS be processing credit card transactions? What about private health records, personal employment histories, or restricted military information? Are you sure the AWS security and reliability environment is good enough to meet the regulatory standards required by your industry and government?
+- **AWS Artifact**: the service home page is a set of links to documents describing various regulatory standards and how AWS meets them. Each of those documents is referred to by Amazon as an artifact.
