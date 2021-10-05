@@ -21,3 +21,12 @@
   - When creating a role, you begin by defining a trusted entity—the entity (or beneficiary) that will be trusted to use the role.  That entity could be an AWS service (like EC2), an identity provided by a **third-party federated identify provider** (like Google or Amazon Cognito — which allow a digital identity to be linked across multiple identity management systems), or a different AWS account.
 
 ### Providing Federated Access
+-  You can integrate third-party standards like the Security Assertion Markup Language 2.0 (SAML) or Microsoft’s Active Directory into your infrastructure. This lets you use users’ existing login sessions to add single sign-on (SSO) across your AWS infrastructure and enable seamless access between your mobile apps and backend resources like DynamoDB databases or S3-based objects
+-  Besides the IAM role configuration options you saw a bit earlier in this chapter, federated access to AWS resources can be handled through the AWS Single Sign-On service.
+
+### Credential Report
+- Accessed from the IAM Dashboard, a credential report displays a simple interface with no more (or less) than one lonely button: Download Report.
+- Reports contain important information about the state of your account security, listing all current IAM users and giving you key intelligence, such as when each of them last logged in, whether they have MFA enabled, whether they have active access keys, and when those keys were last rotated.
+
+## Encryption
+## Regulatory Compliance (AWS Artifact)
