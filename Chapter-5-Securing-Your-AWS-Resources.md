@@ -10,3 +10,5 @@
   - Once the private key is downloaded, you open SSH sessions to your instances by invoking the key in a connection command that might look something like this: ```ssh -i keyname.pem ec2-user@<public_ip_address_of_instance>```
   
 ### Users, Groups, and Roles
+- Users: we can create IAM Users from IAM Dashboard
+- 
