@@ -10,5 +10,8 @@
   - Once the private key is downloaded, you open SSH sessions to your instances by invoking the key in a connection command that might look something like this: ```ssh -i keyname.pem ec2-user@<public_ip_address_of_instance>```
   
 ### Users, Groups, and Roles
-- Users: we can create IAM Users from IAM Dashboard
-- 
+- **IAM Users**: we can create IAM Users from IAM Dashboard
+- **IAM Groups**: 
+  - As your organization devotes more team members to your AWS infrastructure, manually assigning permissions to each individual user one at a time will become a tedious and timeconsuming chore.
+  - Using groups to administrate the permissions associated with multiple users in batches can get all that done much more efficiently.
+    - You could, for instance, have one group called EC2-admins and a second called S3-admins. 
