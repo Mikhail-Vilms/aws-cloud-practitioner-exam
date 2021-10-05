@@ -18,6 +18,6 @@
 - **IAM Role**:
   - Like users and groups, IAM roles define the limits for what can be done within your AWS account.
   - The important difference is that, unlike users and groups, roles are, for the most part, used by applications and services rather than people
-  - When creating a role, you begin by defining a trusted entity—the entity (or beneficiary) that will be trusted to use the role.  That entity could be an AWS service (like EC2), an identity provided by a **third-party federated identify provider** (like Google or Amazon Cognito—which allow a digital identity to be linked across multiple identity management systems), or a different AWS account.
+  - When creating a role, you begin by defining a trusted entity—the entity (or beneficiary) that will be trusted to use the role.  That entity could be an AWS service (like EC2), an identity provided by a **third-party federated identify provider** (like Google or Amazon Cognito — which allow a digital identity to be linked across multiple identity management systems), or a different AWS account.
 
 ### Providing Federated Access
