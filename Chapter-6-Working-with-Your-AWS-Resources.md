@@ -9,3 +9,6 @@
   - A resource group is a collection of AWS resources in the same region that match the results of a query. You can create a resource group from a query based on resource tags or from a CloudFormation Stack.
 - **Resource tags** are optional metadata that you can assign to AWS resources. A tag must contain a label called a key and may optionally contain a value.
   - For example, you may tag your production resources using a key named Environment and a value named Production.
+
+## The AWS Command Line Interface
+- AWS Command Line Interface (AWS CLI) is a unified command-line tool to manage your AWS resources.
