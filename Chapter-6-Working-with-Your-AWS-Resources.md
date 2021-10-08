@@ -19,3 +19,15 @@
 - Instead, the developer just uses the SDK’s well-documented methods to learn how to incorporate it into their application.
 - Mobile Software Development Kits
   - AWS also offers mobile SDKs for the development of applications for smartphones and tablets
+  - AWS Mobile SDK for Android
+  - AWS Mobile SDK for iOS
+  - AWS Mobile SDK for Unity
+  - AWS Mobile SDK for .NET and Xamarin
+  - AWS Amplify
+- Internet of Things Device Software Development Kits
+  - You can use the AWS IoT SDKs to create applications that run on Internet of Things (IoT) devices, such as sensors, microcontrollers, smart appliances, smart lightbulbs, and AWS IoT buttons.
+
+## CloudWatch
+- Amazon CloudWatch is a key service that helps you plan, monitor, and fine-tune your AWS infrastructure and applications. 
+- It lets you collect, search, and visualize data from your applications and AWS resources in the form of logs, metrics, and events.
+- 
