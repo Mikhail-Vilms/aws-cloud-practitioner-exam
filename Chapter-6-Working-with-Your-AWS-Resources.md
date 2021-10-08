@@ -30,4 +30,10 @@
 ## CloudWatch
 - Amazon CloudWatch is a key service that helps you plan, monitor, and fine-tune your AWS infrastructure and applications. 
 - It lets you collect, search, and visualize data from your applications and AWS resources in the form of logs, metrics, and events.
-- 
+
+#### CloudWatch Metrics 
+- A **metric** is a variable that contains a time-ordered set of data points. 
+  - Each data point contains a timestamp, a value, and optionally a unit of measure. 
+  - For example, a data point for the CPU Utilization metric for an EC2 instance may contain a timestamp of December 25, 2018 13:37, a value of 75, and Percent as the unit of measure.
+
+#### CloudWatch Alarms 
