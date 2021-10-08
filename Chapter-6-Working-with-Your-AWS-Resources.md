@@ -12,3 +12,10 @@
 
 ## The AWS Command Line Interface
 - AWS Command Line Interface (AWS CLI) is a unified command-line tool to manage your AWS resources.
+
+## Software Development Kits
+- Application developers can use an SDK to integrate their applications with AWS services easily and reliably. 
+- SDKs save application developers from having to write low-level code to interact directly with the AWS service API endpoints. 
+- Instead, the developer just uses the SDK’s well-documented methods to learn how to incorporate it into their application.
+- Mobile Software Development Kits
+  - AWS also offers mobile SDKs for the development of applications for smartphones and tablets
