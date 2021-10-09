@@ -55,3 +55,4 @@
 - A **log event** is analogous to a line in a log file and always contains a timestamp and an event message.
 - CloudWatch Logs organizes log events by **log streams** by storing log events from the same source in a single log stream.
 - CloudWatch further organizes log streams into **log groups**.
+- CloudWatch Logs stores log events indefinitely by default, but you can configure a log group’s retention settings to delete events automatically.
