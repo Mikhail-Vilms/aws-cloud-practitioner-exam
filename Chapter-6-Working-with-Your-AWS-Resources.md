@@ -45,3 +45,5 @@
     - By specifying an EC2 Auto Scaling action, the EC2 Auto Scaling service can add or remove EC2 instances in response to changing demand.
   - EC2 action
     - If you’re monitoring a specific instance that’s having a problem, you can use an EC2 action to stop, terminate, or recover the instance. 
+
+#### CloudWatch Dashboards
