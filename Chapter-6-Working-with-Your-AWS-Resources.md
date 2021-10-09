@@ -56,3 +56,6 @@
 - CloudWatch Logs organizes log events by **log streams** by storing log events from the same source in a single log stream.
 - CloudWatch further organizes log streams into **log groups**.
 - CloudWatch Logs stores log events indefinitely by default, but you can configure a log group’s retention settings to delete events automatically.
+- A **metric filter** extracts data from log events in a log group and stores that data in a custom CloudWatch metric.
+
+#### CloudWatch Events
