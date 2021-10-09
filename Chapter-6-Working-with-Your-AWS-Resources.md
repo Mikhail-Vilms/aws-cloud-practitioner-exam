@@ -47,3 +47,8 @@
     - If you’re monitoring a specific instance that’s having a problem, you can use an EC2 action to stop, terminate, or recover the instance. 
 
 #### CloudWatch Dashboards
+- CloudWatch dashboards are your one-stop shop for keeping an eye on all of your important metrics. 
+- You can create multiple dashboards and add to them metric graphs, the latest values for a metric, and CloudWatch alarms.
+
+#### CloudWatch Logs
+- CloudWatch Logs collects and stores log files from AWS and non-AWS sources and makes it easy to view, search, and extract custom metrics from them
