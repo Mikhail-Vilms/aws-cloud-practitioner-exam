@@ -52,3 +52,5 @@
 
 #### CloudWatch Logs
 - CloudWatch Logs collects and stores log files from AWS and non-AWS sources and makes it easy to view, search, and extract custom metrics from them
+- A **log event** is analogous to a line in a log file and always contains a timestamp and an event message.
+- CloudWatch Logs organizes log events by **log streams** by storing log events from the same source in a single log stream.
