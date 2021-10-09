@@ -37,3 +37,11 @@
   - For example, a data point for the CPU Utilization metric for an EC2 instance may contain a timestamp of December 25, 2018 13:37, a value of 75, and Percent as the unit of measure.
 
 #### CloudWatch Alarms 
+- A CloudWatch alarm watches over the value of a single metric. 
+- If the metric crosses a threshold that you specify (and stays there), the alarm will take an action.
+- The action can be one of the following:
+  - Notification using Simple Notification Service
+  - Auto Scaling action
+    - By specifying an EC2 Auto Scaling action, the EC2 Auto Scaling service can add or remove EC2 instances in response to changing demand.
+  - EC2 action
+    - If you’re monitoring a specific instance that’s having a problem, you can use an EC2 action to stop, terminate, or recover the instance. 
