@@ -59,3 +59,8 @@
 - A **metric filter** extracts data from log events in a log group and stores that data in a custom CloudWatch metric.
 
 #### CloudWatch Events
+- The CloudWatch Events feature lets you continuously monitor for specifi c events that represent a change in your AWS resources—particularly write-only API operations—and take an action when they occur.
+- CloudWatch Events can then automatically and immediately take actions in response to those events.
+  -  For example, an EC2 instance going from the running state to the stopped state would be an event.
+  -  An IAM user logging into the AWS Management Console would also be an event.
+- CloudWatch responds to events as they occur, in real time. Unlike CloudWatch alarms, which take action when a metric crosses and remains crossing a numeric threshold, CloudWatch events trigger immediately.
