@@ -83,4 +83,6 @@
   - Management events — also known as control plane operations — are operations that a principal (such as a user or service) attempts to execute against an AWS resource 
   - Data events consist of S3 object-level activity and Lambda function executions, both of which tend to be high volume. As such, CloudTrail treats data events as separate from management events.
 - Event History
-- 
+  - When you open an AWS account, CloudTrail begins logging all of your management events automatically.
+  - It stores 90 days of management events in the event history, which you can view, search, and download at any time. 
+  - The event history log doesn’t record data events. 
