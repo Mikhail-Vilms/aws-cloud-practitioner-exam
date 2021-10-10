@@ -64,3 +64,18 @@
   -  For example, an EC2 instance going from the running state to the stopped state would be an event.
   -  An IAM user logging into the AWS Management Console would also be an event.
 - CloudWatch responds to events as they occur, in real time. Unlike CloudWatch alarms, which take action when a metric crosses and remains crossing a numeric threshold, CloudWatch events trigger immediately.
+
+## CloudTrail
+- CloudTrail keeps detailed event logs of every action that occurs against your AWS resources. 
+- Each event that CloudTrail logs includes the following parameters:
+  - The service. Specifically, this is the address of the service’s global endpoint, such as iam.amazonaws.com for IAM (Event Source ???)
+  - The name of the API action performed, such as RunInstances, CreateUser, or PutObject
+  - The region the resource is located in. For global services, this is always us-east-1
+  - Response elements. In the case of an API operation that changes or creates a resource, this contains information about the results of the action. For example, the response elements for a RunInstances action to launch an EC2 instance would yield information such as the instance ID and private IP address
+  - The principal that made the request. This may include the type of principal (IAM user or role), its Amazon resource name (ARN), and the name
+  - The date and time of the request, given in coordinated universal time (UTC)
+  - The IP address of the requester
+ - ***```API and Non-API Events```***
+   - API actions include things such as launching an instance, creating an S3 bucket, creating a new IAM user, or taking an EBS snapshot
+     - Note that the term API action has nothing to do with how the action was performed. For example, terminating an EC2 instance is an API event whether you do it via the AWS Management Console, the AWS command-line interface, or an AWS software development kit.
+   - Non-API actions include everything else, such as logging into the management console
