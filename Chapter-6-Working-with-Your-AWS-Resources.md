@@ -86,3 +86,4 @@
   - When you open an AWS account, CloudTrail begins logging all of your management events automatically.
   - It stores 90 days of management events in the event history, which you can view, search, and download at any time. 
   - The event history log doesn’t record data events. 
+- A **trail** is a confi guration that directs CloudTrail to record specifi ed events in log files and deliver them to an S3 bucket
