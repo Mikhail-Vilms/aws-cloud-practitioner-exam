@@ -75,7 +75,7 @@
   - The principal that made the request. This may include the type of principal (IAM user or role), its Amazon resource name (ARN), and the name
   - The date and time of the request, given in coordinated universal time (UTC)
   - The IP address of the requester
- - ***```API and Non-API Events```***
+ - **```API and Non-API Events```**
    - API actions include things such as launching an instance, creating an S3 bucket, creating a new IAM user, or taking an EBS snapshot
      - Note that the term API action has nothing to do with how the action was performed. For example, terminating an EC2 instance is an API event whether you do it via the AWS Management Console, the AWS command-line interface, or an AWS software development kit.
    - Non-API actions include everything else, such as logging into the management console
