@@ -87,7 +87,7 @@
   - It stores 90 days of management events in the event history, which you can view, search, and download at any time. 
   - The event history log doesn’t record data events. 
 - A **trail** is a confi guration that directs CloudTrail to record specifi ed events in log files and deliver them to an S3 bucket
-  - You can also confi gure CloudTrail to send a trail log to CloudWatch Logs, making them available for storage, searching, and metric filtering. 
+  - You can also confi gure CloudTrail to send a trail log to CloudWatch Logs, making them available for storage, searching, and metric filtering. 
 
 ## Cost Explorer
 - AWS Cost Explorer is a feature of AWS Billing and Cost Management that offers configurable reports and graphs to help you understand how each of your AWS services impacts your monthly bill.
@@ -95,3 +95,6 @@
   - Cost and usage reports
   - Reservation reports
   - Reserved instance recommendation 
+- Reservation reports: 
+  - Cost Explorer offers the following two built-in reservation reports to give you insight on how much you are saving—or could have saved—with instance reservations
+  - Instance reservations allow you to save money by prepaying for compute instances including those used by Amazon EC2, Amazon Elasticsearch Service, Amazon ElastiCache, Amazon RDS, and Amazon Redshift.
