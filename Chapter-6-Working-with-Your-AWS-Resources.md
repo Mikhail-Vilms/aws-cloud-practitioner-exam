@@ -88,3 +88,10 @@
   - The event history log doesn’t record data events. 
 - A **trail** is a confi guration that directs CloudTrail to record specifi ed events in log files and deliver them to an S3 bucket
   - You can also confi gure CloudTrail to send a trail log to CloudWatch Logs, making them available for storage, searching, and metric filtering. 
+
+## Cost Explorer
+- AWS Cost Explorer is a feature of AWS Billing and Cost Management that offers configurable reports and graphs to help you understand how each of your AWS services impacts your monthly bill.
+- AWS Cost Explorer offers the following three categories of reports:
+  - Cost and usage reports
+  - Reservation reports
+  - Reserved instance recommendation 
